@@ -16,7 +16,7 @@ DIR="/opt"
 
 cd $DIR
 
-wget -q -Orates.html http://192.168.104.2/00acron/rates.php
+wget -q -Orates.html http://192.168.129.2/admin/rates.php
 
 if [ -s rates.html ]; then
 
